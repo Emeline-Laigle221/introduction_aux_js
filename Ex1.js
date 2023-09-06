@@ -12,4 +12,27 @@ let largeur =10
 let longeur = 10
 
 let maDiv2= document.getElementById("Exercice_2")
-maDiv2.textContent=
+maDiv2.textContent= largeur*longeur
+
+//Ex3
+let prenom = "Vladimir"
+let nom = "Rekaï"
+
+let chaine = prenom + nom
+
+let div3 = document.getElementById("Exercice_3")
+div3.textContent = chaine
+
+//Ex4
+
+let montantHT= 30
+const TVA=20
+let montantTTC= montantHT + TVA*montantHT*0.01
+let HT = document.getElementById("montant_ht")
+let tva= document.getElementById("tva")
+let TTC=document.getElementById("montant_ttc")
+HT.textContent= montantHT
+tva.textContent=TVA
+TTC.textContent=montantTTC
+
+
