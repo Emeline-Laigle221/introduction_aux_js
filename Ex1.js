@@ -35,4 +35,9 @@ HT.textContent= montantHT
 tva.textContent=TVA
 TTC.textContent=montantTTC
 
+//Ex5
 
+let div5 = document.getElementById("Exercice_5")
+div5.textContent = ((4 >= 6) || ("herbe" != "verte")) && !(((12 * 2) == 144) && true)
+
+//Ex6
