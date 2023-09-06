@@ -63,6 +63,14 @@ if(total >= min){
     div7.textContent= "Frais de livraison : X euros"
 }
 
+//EX8
+
+let nbBinaire="101"
+let decimal= parseInt(nbBinaire,2)
+
+let div8=document.getElementById("Exercice_8")
+div8.textContent= decimal
+
 
 
 
