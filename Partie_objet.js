@@ -34,3 +34,5 @@ personnes[0].ville="caen"
 personnes.splice(1,1)
 console.log(personnes)
 console.table(personnes)
+//Ex5
+
