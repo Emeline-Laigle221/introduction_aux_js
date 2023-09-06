@@ -8,6 +8,8 @@ maDiv.textContent = celsus// change le contenu du texte de la div de la page web
 maDiv.textContent += " "
 maDiv.textContent += fahrenheit
 
+//Exo2
+
 let largeur =10
 let longeur = 10
 
@@ -41,5 +43,27 @@ let div5 = document.getElementById("Exercice_5")
 div5.textContent = ((4 >= 6) || ("herbe" != "verte")) && !(((12 * 2) == 144) && true)
 
 //Ex6
+
+let poids= 49
+let taille=1.69
+let imc= poids/(taille*taille)
+imc=imc.toFixed(2) //permet de mettre deux chiffres apres a virgule
+let div6=document.getElementById("Exercice_6")
+div6.textContent=imc
+
+//Ex7
+let div7=document.getElementById("Exercice_7")
+
+const min = 40
+let total =12
+
+if(total >= min){
+    div7.textContent= "Livraison Gratuite"
+}else{
+    div7.textContent= "Frais de livraison : X euros"
+}
+
+
+
 
 
