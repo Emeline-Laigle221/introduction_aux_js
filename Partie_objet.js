@@ -48,5 +48,8 @@ console.table(nombres10);
 nombres10.reverse();
 console.table(nombres10);
 
-
-
+//Ex7
+let numbers =[2, 5, 1, 9, 0, 3, 7, 4, 6, 8 ]
+console.table(numbers)
+numbers.sort()
+console.table(numbers)
