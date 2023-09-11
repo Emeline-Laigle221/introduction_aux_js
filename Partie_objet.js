@@ -53,3 +53,12 @@ let numbers =[2, 5, 1, 9, 0, 3, 7, 4, 6, 8 ]
 console.table(numbers)
 numbers.sort()
 console.table(numbers)
+
+//EX8
+
+numbers.push(11)
+console.table(numbers)
+numbers.unshift(0)
+console.table(numbers)
+numbers.pop()
+console.table(numbers)
