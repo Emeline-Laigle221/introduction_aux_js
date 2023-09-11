@@ -34,5 +34,13 @@ personnes[0].ville="caen"
 personnes.splice(1,1)
 console.log(personnes)
 console.table(personnes)
+
 //Ex5
+let nombres = [1,2,3,4,5,6,7,8,9,10]
+console.log(nombres[0])
+console.log(nombres[9])
+console.log(nombres.length)
+
+//Ex6
+
 
